@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from '@material-ui/core';
 import youtube from './api/youtube';
-import { SearchBar, VideoDetail } from "./components";
+import { SearchBar, VideoDetail, VideoList } from "./components";
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -24,7 +24,7 @@ class App extends React.Component {
   }
 
   render (){
-    const { selectedVideo } = this.state;
+    const { selectedVideo, videos } = this.state;
     return (
       <Grid justifyContent="center" container spacing={10}>
         <Grid item xs={11}>
@@ -36,7 +36,7 @@ class App extends React.Component {
               <VideoDetail video={selectedVideo} />
             </Grid>
             <Grid item xs={4}>
-              {/* VIDEO LIST */}
+              <VideoList videos={videos} />
             </Grid>
           </Grid>
         </Grid>
