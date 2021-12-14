@@ -40,10 +40,10 @@ class App extends React.Component {
             <Grid item xs={12}>
               <SearchBar onFormSubmit={this.handleSubmit} />
             </Grid>
-            <Grid item xs={4} md={8}>
+            <Grid item xs={12} md={8}>
               <VideoDetail video={selectedVideo} />
             </Grid>
-            <Grid item xs={4} md={4}>
+            <Grid item xs={12} md={4}>
               <VideoList videos={videos} onVideoSelect={this.onVideoSelect} />
             </Grid>
           </Grid>
