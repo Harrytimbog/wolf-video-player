@@ -1,5 +1,5 @@
 # wolf-video-player
-A React App to track global and country specific COVID-19 spread and updates
+An App to search, select and watch videos of your choice
 
 ## Getting Started
 
