@@ -7,7 +7,7 @@ An App to search, select and watch videos of your choice
 
 ## Demo    
 
-[Run demo](https://wolf-video-player-48a1n66p1-harrytimbog.vercel.app/)
+[Run demo](https://wolf-video-player.vercel.app/)
 
 ## Run Locally   
 
@@ -54,4 +54,4 @@ Arigbede Timilehin Emmanuel - @Harrytimbog - harriemannie@gmail.com
 
 Project Link: git@github.com:Harrytimbog/wolf-video-player.git
 
-Demo Link: https://wolf-video-player-48a1n66p1-harrytimbog.vercel.app/
+Demo Link: https://wolf-video-player.vercel.app/
